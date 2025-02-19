@@ -1,15 +1,43 @@
-# Prediction-of-Pregnancy-Risks 
-Introduction
-Pregnancy complications poses significant challenges in the area of maternal health. These complications result in long-term physical incapacitation, mental health challenges, and adverse neonatal outcomes, ultimately affecting the overall well-being of both mothers and their children.
+Project Overview
+This project focuses on predicting pregnancy-related complications using machine learning techniques. By analyzing key maternal health indicators, the model aims to accurately assess risk levels and support early intervention strategies.
 
-Aims of this project
-The primary aim of this study is to develop and implement machine learning models for predicting maternal health risks. It is also, to stratify pregnancy risk levels into low, medium, and high categories, providing a clear framework for healthcare professionals.
+Dataset Information
+The dataset used was sourced from UC Irvine repository https://archive.ics.uci.edu/dataset/863/maternal+health+risk 
+It contains 1,014 entries and 7 key features:
+Age
+Systolic Blood Pressure (SystolicBP)
+Diastolic Blood Pressure (DiastolicBP)
+Blood Sugar Level (BS)
+Body Temperature (BodyTemp)
+Heart Rate (HeartRate)
+Risk Level (Target variable: Low, Medium, High)
 
-Machine-Learning Models
-Advanced Machine-Learning models such as Decision Tree, Random Forest are implemented, coupled with GridsearchCV tool which selects best parameter of the options presented by these robust algorithms
+Project Aim
+To develop a machine learning model for accurate classification of maternal health risk levels.
 
-Summary of Findings
-Following a detailed analysis the outcomes of the models, the Random Forest model has performed optimally with F1 score for the high risk as 0.91, AUC-ROC as 0.95 and Average Precision 0.92
+Technologies Used
+Programming: Python
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Visualization: Pairplots, Pie charts, Feature Correlation Analysis
+Machine Learning Models: Support Vector Classifier, Random Forest, Decision Trees
+IDE: Google collab
 
-Acknowledgements
-The dataset used for this study was sourced from the UC Irvine repository https://archive.ics.uci.edu/dataset/863/maternal+health+risk
+Key Findings & Insights
+Feature Correlation: No strong correlations were observed between independent variables.
+Class Imbalance: The dataset is imbalanced, which reflects real-life maternal health scenarios.
+Model Optimization: Future improvements could include resampling techniques or synthetic data generation.
+
+Future Enhancements 
+- Implement deep learning models for improved accuracy.
+- Develop an interactive interface for real-time maternal risk assessment.
+- Integrate domain-specific medical insights to enhance feature engineering.
+
+Real-World Applications 
+- Early detection of complication supports maternal health professionals in service delivery.
+- Integration into mobile or hospital-based diagnostic tools.
+- Predictive analytics for personalized maternal care.
+
+Contact
+For collaboration, improvement, inquiries or to connect:
+- Submit a pull request or fork this repository
+- https://www.linkedin.com/in/olubunmi-adenuga/
